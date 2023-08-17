@@ -55,7 +55,7 @@ export class AuthService {
     }
 
     const otp = await this.generateOTP(data.phone);
-    // Replace with your OTP sending logic
+    // OTP sending logic
     console.log(`Sending OTP ${otp} to ${data.phone}`);
 
     return otp;
